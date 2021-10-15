@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    display: flex;
+    background-color: gainsboro;
+    justify-content: center;
+}
+.padre{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 18px black;
+    width: 400px;
+    height: 400px;
+}
+.botones{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.botones .top input{
+    margin: 5px;
+    background-color: #B3B6B7;
+}
+.botones .mid input{
+    margin: 5px;
+    background-color: #B3B6B7;
+
+}
+.botones .mid2 input{
+    margin: 5px;
+    background-color: #B3B6B7;
+
+}
+.botones .bot input{
+    margin: 5px;
+    background-color: #B3B6B7;
+
+}
+::placeholder {
+    color: black;
+  }
+.botones input{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.visores input , .visor #visorTexto{
+    font-size: 20px;
+    text-align: center;
+    background-color: #3CE712;
+    border-radius: 5px;
+    height: 60px;
+    width: 100px;
+}
+
+.visor #visorTexto{
+    text-align: center;
+    background-color: #3CE712;
+    border-radius: 5px;
+    height: 60px;
+    width: 350px;
+}

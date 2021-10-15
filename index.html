@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portero electrico</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="visores">
+            <input id="visorPiso" type="text" placeholder="Piso" readonly>
+            <input id="visorDepto" type="text" placeholder="Depto" readonly>
+        </div>
+        <div class="botones">
+            <div class="top">
+                <input type="button" value="1" onclick="numero('1')">
+                <input type="button" value="2" onclick="numero('2')">
+                <input type="button" value="3" onclick="numero('3')">
+            </div>
+            <div class="mid">
+                <input type="button" value="5" onclick="numero('5')">
+                <input type="button" value="6" onclick="numero('6')">
+                <input type="button" value="7" onclick="numero('7')">
+            </div>
+            <div class="mid2">
+                <input type="button" value="4" onclick="numero('4')">
+                <input type="button" value="8" onclick="numero('8')">
+                <input type="button" value="9" onclick="numero('9')"> 
+            </div>
+            <div class="bot">
+                <input type="button" value="0" onclick="numero('0')">
+                <input type="button" value="llamar" onclick="llamar()">
+                <input type="button" value="borrar" onclick="borrar()">
+            </div>
+        </div> 
+        <div class="visor">
+            <input id="visorTexto" type="text" placeholder="Hola! Ingrese su piso y Departamento">
+            
+        </div> 
+    </div>
+</body>
+</html>
